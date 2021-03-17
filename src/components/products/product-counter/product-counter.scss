@@ -1,0 +1,49 @@
+@import "~bootstrap/scss/bootstrap";
+
+.product-counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product-counter-input {
+  width: 100px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.product-counter-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  &:hover {
+    color: #613c17;
+  }
+}
+
+@include media-breakpoint-between(lg, xl) {
+  .product-counter {
+    font-size: 28px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  .product-counter {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .product-counter {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+}

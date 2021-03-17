@@ -1,0 +1,59 @@
+@import "~bootstrap/scss/bootstrap";
+
+.shopping-cart-container {
+  background-image: url(../../assets/images/background-2.jpg);
+}
+
+.shopping-cart-item-count {
+  font-weight: bold;
+}
+
+.col-no-padding {
+  background-color: sandybrown;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@include media-breakpoint-up(xl) {
+  .shopping-cart-item-count {
+    padding: 20px 0px;
+    font-size: 28px;
+  }
+}
+
+@include media-breakpoint-only(lg) {
+  .shopping-cart-item-count {
+    padding: 10px 0px;
+    font-size: 22px;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  .h-70 {
+    height: 70% !important;
+  }
+
+  .h-30 {
+    height: 30% !important;
+  }
+
+  .shopping-cart-item-count {
+    padding: 10px 0px;
+    font-size: 22px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .h-70 {
+    height: 70% !important;
+  }
+
+  .h-30 {
+    height: 30% !important;
+  }
+
+  .shopping-cart-item-count {
+    padding: 10px 0px;
+    font-size: 18px;
+  }
+}

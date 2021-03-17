@@ -1,0 +1,81 @@
+@import "~bootstrap/scss/bootstrap";
+
+.breadcrumb-container {
+  display: inline-flex;
+}
+
+.breadcrumb-inactive,
+.breadcrumb-separater {
+  color: #5d5d5d;
+}
+
+.breadcrumb-active {
+  color: #5b0f01;
+
+  &:hover {
+    text-decoration: none;
+    color: #a07e4d;
+  }
+}
+
+.center-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+
+@include media-breakpoint-only(xl) {
+  .breadcrumb-container {
+    padding: 15px 0px;
+    font-size: 25px;
+  }
+
+  .breadcrumb-separater {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+  }
+}
+
+@include media-breakpoint-only(lg) {
+  .breadcrumb-container {
+    padding: 15px 0px;
+    font-size: 22px;
+  }
+
+  .breadcrumb-separater {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 22px;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  .breadcrumb-container {
+    padding: 12px 0px;
+    font-size: 22px;
+  }
+
+  .breadcrumb-separater {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 22px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .breadcrumb-container {
+    padding: 10px 0px;
+    font-size: 20px;
+  }
+
+  .breadcrumb-separater {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+  }
+}

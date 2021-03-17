@@ -1,0 +1,27 @@
+$nav-action-color:#613c17;
+
+.bg-nav-background,.dropdown-menu {
+  background-color: #38230d;
+}
+
+.navbar-brand,
+#collasible-nav-dropdown,
+.nav-link,
+.navbar-toggler {
+  &:focus {
+    outline: none;
+  }
+}
+
+.dropdown-item{
+    color: white;
+
+    &:hover, &:active,  &:focus{
+        background-color: $nav-action-color;
+        color: white;
+        outline: none;
+    }
+
+}
+
+

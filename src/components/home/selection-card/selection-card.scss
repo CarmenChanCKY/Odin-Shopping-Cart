@@ -1,0 +1,81 @@
+@import "~bootstrap/scss/bootstrap";
+
+.selection-card {
+  display: flex;
+
+}
+
+.selection-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.selection-card {
+  background-size: cover;
+  background-position: center;
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+}
+
+.selection-card-text {
+  align-self: flex-end;
+  text-align: center;
+  width: inherit;
+  color: white;
+  font-weight: bold;
+  font-size: 48px;
+  text-transform: capitalize;
+}
+
+@include media-breakpoint-only(xl) {
+  .selection-card-container {
+    height: 100vh;
+  }
+
+  .selection-card {
+    height: 650px;
+    width: 450px;
+  }
+}
+
+@include media-breakpoint-only(lg) {
+  .selection-card-container {
+    height: 100vh;
+
+  }
+
+  .selection-card {
+    height: 600px;
+    width: 400px;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  .selection-card-container {
+    height: 750px;
+  
+  }
+
+  .selection-card {
+    height: 600px;
+    width: 400px;
+  }
+}
+
+
+@include media-breakpoint-down(sm) {
+  .selection-card-container {
+    height: 700px;
+  }
+
+  .selection-card {
+    height: 550px;
+    width: 350px;
+  }
+}

@@ -1,0 +1,86 @@
+@import "~bootstrap/scss/bootstrap";
+
+%row-height {
+  height: 100vh;
+}
+
+%bold-text {
+  font-weight: bold;
+}
+
+.introduction-area {
+  @extend %row-height;
+  background-image: url(../../assets/images/background-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.selection-area {
+  background-image: url(../../assets/images/background-2.jpg);
+  background-repeat: repeat
+}
+
+.introduction-text-container {
+  @extend %row-height;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.introduction-heading-text, .introduction-sub-text {
+  @extend %bold-text;
+  text-align: center;
+}
+
+.introduction-buttton {
+  @extend %bold-text;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+
+  &:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #613c17;
+  }
+}
+
+@include media-breakpoint-only(xl) {
+  .introduction-heading-text {
+    font-size: 84px;
+  }
+  
+  .introduction-sub-text {
+    font-size: 40px;
+  }
+}
+
+@include media-breakpoint-between(md,lg) {
+  .introduction-heading-text {
+    font-size: 76px;
+  }
+  
+  .introduction-sub-text {
+    font-size: 36px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .introduction-heading-text {
+    font-size: 60px;
+  }
+  
+  .introduction-sub-text {
+    font-size: 28px;
+  }
+}
