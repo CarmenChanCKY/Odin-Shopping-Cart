@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Odin-Shopping-Cart/static/css/main.d17128d3.chunk.css",
-    "main.js": "/Odin-Shopping-Cart/static/js/main.8a04b2cc.chunk.js",
-    "main.js.map": "/Odin-Shopping-Cart/static/js/main.8a04b2cc.chunk.js.map",
-    "runtime-main.js": "/Odin-Shopping-Cart/static/js/runtime-main.118a93d0.js",
-    "runtime-main.js.map": "/Odin-Shopping-Cart/static/js/runtime-main.118a93d0.js.map",
-    "static/css/2.150d169a.chunk.css": "/Odin-Shopping-Cart/static/css/2.150d169a.chunk.css",
-    "static/js/2.db02c6fe.chunk.js": "/Odin-Shopping-Cart/static/js/2.db02c6fe.chunk.js",
-    "static/js/2.db02c6fe.chunk.js.map": "/Odin-Shopping-Cart/static/js/2.db02c6fe.chunk.js.map",
+    "main.css": "/Odin-Shopping-Cart/static/css/main.9e863286.chunk.css",
+    "main.js": "/Odin-Shopping-Cart/static/js/main.15b33c2f.chunk.js",
+    "main.js.map": "/Odin-Shopping-Cart/static/js/main.15b33c2f.chunk.js.map",
+    "runtime-main.js": "/Odin-Shopping-Cart/static/js/runtime-main.69838867.js",
+    "runtime-main.js.map": "/Odin-Shopping-Cart/static/js/runtime-main.69838867.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/Odin-Shopping-Cart/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.3bae1ba3.chunk.js": "/Odin-Shopping-Cart/static/js/2.3bae1ba3.chunk.js",
+    "static/js/2.3bae1ba3.chunk.js.map": "/Odin-Shopping-Cart/static/js/2.3bae1ba3.chunk.js.map",
     "index.html": "/Odin-Shopping-Cart/index.html",
-    "static/css/2.150d169a.chunk.css.map": "/Odin-Shopping-Cart/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.d17128d3.chunk.css.map": "/Odin-Shopping-Cart/static/css/main.d17128d3.chunk.css.map",
-    "static/js/2.db02c6fe.chunk.js.LICENSE.txt": "/Odin-Shopping-Cart/static/js/2.db02c6fe.chunk.js.LICENSE.txt",
+    "static/css/2.4c97ca4f.chunk.css.map": "/Odin-Shopping-Cart/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.9e863286.chunk.css.map": "/Odin-Shopping-Cart/static/css/main.9e863286.chunk.css.map",
+    "static/js/2.3bae1ba3.chunk.js.LICENSE.txt": "/Odin-Shopping-Cart/static/js/2.3bae1ba3.chunk.js.LICENSE.txt",
     "static/media/Japanese-Original-Lucky-Cat-T-Shirt.54926b03.jpg": "/Odin-Shopping-Cart/static/media/Japanese-Original-Lucky-Cat-T-Shirt.54926b03.jpg",
     "static/media/home.scss": "/Odin-Shopping-Cart/static/media/background-1.68994ebc.jpg",
     "static/media/shopping-cart.scss": "/Odin-Shopping-Cart/static/media/background-2.11503c0a.jpg",
@@ -79,10 +79,10 @@
     "static/media/woman_selection.72a498f1.jpg": "/Odin-Shopping-Cart/static/media/woman_selection.72a498f1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.118a93d0.js",
-    "static/css/2.150d169a.chunk.css",
-    "static/js/2.db02c6fe.chunk.js",
-    "static/css/main.d17128d3.chunk.css",
-    "static/js/main.8a04b2cc.chunk.js"
+    "static/js/runtime-main.69838867.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.3bae1ba3.chunk.js",
+    "static/css/main.9e863286.chunk.css",
+    "static/js/main.15b33c2f.chunk.js"
   ]
 }
