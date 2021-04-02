@@ -461,6 +461,8 @@ function getProductList(type, productType) {
       }
     }
   }
+
+  return [[], ""];
 }
 
 function getProductDetail(type, productType, id) {

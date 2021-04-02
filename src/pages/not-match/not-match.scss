@@ -1,0 +1,13 @@
+.not-match-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/images/background-2.jpg);
+  background-repeat: repeat;
+  height: 100vh;
+}
+
+.not-match-text {
+  font-size: 32px;
+}
