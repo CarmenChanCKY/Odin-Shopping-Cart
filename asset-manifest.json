@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Odin-Shopping-Cart/static/css/main.9e863286.chunk.css",
-    "main.js": "/Odin-Shopping-Cart/static/js/main.15b33c2f.chunk.js",
-    "main.js.map": "/Odin-Shopping-Cart/static/js/main.15b33c2f.chunk.js.map",
+    "main.css": "/Odin-Shopping-Cart/static/css/main.816b0965.chunk.css",
+    "main.js": "/Odin-Shopping-Cart/static/js/main.575593a4.chunk.js",
+    "main.js.map": "/Odin-Shopping-Cart/static/js/main.575593a4.chunk.js.map",
     "runtime-main.js": "/Odin-Shopping-Cart/static/js/runtime-main.69838867.js",
     "runtime-main.js.map": "/Odin-Shopping-Cart/static/js/runtime-main.69838867.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/Odin-Shopping-Cart/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.3bae1ba3.chunk.js": "/Odin-Shopping-Cart/static/js/2.3bae1ba3.chunk.js",
-    "static/js/2.3bae1ba3.chunk.js.map": "/Odin-Shopping-Cart/static/js/2.3bae1ba3.chunk.js.map",
+    "static/js/2.e34ad0d5.chunk.js": "/Odin-Shopping-Cart/static/js/2.e34ad0d5.chunk.js",
+    "static/js/2.e34ad0d5.chunk.js.map": "/Odin-Shopping-Cart/static/js/2.e34ad0d5.chunk.js.map",
     "index.html": "/Odin-Shopping-Cart/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/Odin-Shopping-Cart/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.9e863286.chunk.css.map": "/Odin-Shopping-Cart/static/css/main.9e863286.chunk.css.map",
-    "static/js/2.3bae1ba3.chunk.js.LICENSE.txt": "/Odin-Shopping-Cart/static/js/2.3bae1ba3.chunk.js.LICENSE.txt",
+    "static/css/main.816b0965.chunk.css.map": "/Odin-Shopping-Cart/static/css/main.816b0965.chunk.css.map",
+    "static/js/2.e34ad0d5.chunk.js.LICENSE.txt": "/Odin-Shopping-Cart/static/js/2.e34ad0d5.chunk.js.LICENSE.txt",
     "static/media/Japanese-Original-Lucky-Cat-T-Shirt.54926b03.jpg": "/Odin-Shopping-Cart/static/media/Japanese-Original-Lucky-Cat-T-Shirt.54926b03.jpg",
     "static/media/home.scss": "/Odin-Shopping-Cart/static/media/background-1.68994ebc.jpg",
-    "static/media/shopping-cart.scss": "/Odin-Shopping-Cart/static/media/background-2.11503c0a.jpg",
+    "static/media/not-match.scss": "/Odin-Shopping-Cart/static/media/background-2.11503c0a.jpg",
     "static/media/black-casual-pants.de8b956d.jpg": "/Odin-Shopping-Cart/static/media/black-casual-pants.de8b956d.jpg",
     "static/media/black-coat.01c1b695.jpg": "/Odin-Shopping-Cart/static/media/black-coat.01c1b695.jpg",
     "static/media/black-crew-neck-t-shirt.9bb15afd.jpg": "/Odin-Shopping-Cart/static/media/black-crew-neck-t-shirt.9bb15afd.jpg",
@@ -81,8 +81,8 @@
   "entrypoints": [
     "static/js/runtime-main.69838867.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.3bae1ba3.chunk.js",
-    "static/css/main.9e863286.chunk.css",
-    "static/js/main.15b33c2f.chunk.js"
+    "static/js/2.e34ad0d5.chunk.js",
+    "static/css/main.816b0965.chunk.css",
+    "static/js/main.575593a4.chunk.js"
   ]
 }
