@@ -1,55 +1,5 @@
 import Cookies from 'universal-cookie';
 const cookies = new Cookies();
-/*
-function setStorageItem(key, obj) {
-  sessionStorage.setItem(key, JSON.stringify(obj));
-}
-
-function checkStorageItemExist(key) {
-  return sessionStorage.getItem(key) != null;
-}
-
-function getStorageItem(key) {
-  return JSON.parse(sessionStorage.getItem(key));
-}
-
-function removeStorageItem(key) {
-  sessionStorage.removeItem(key);
-}
-
-function checkStorageListIsEmpty() {
-  let keyList = Object.keys(sessionStorage);
-  if (keyList.length == 0) {
-    return true;
-  }
-  return false;
-}
-
-function getStorageListLength() {
-  let keyList = Object.keys(sessionStorage);
-  return keyList.length;
-}
-
-function getStrorageList() {
-  let keyList = Object.keys(sessionStorage);
-  let storageList = [];
-  for (let i = 0; i < keyList.length; i++) {
-    storageList.push(getStorageItem(keyList[i]));
-  }
-
-  return storageList;
-}
-
-export {
-  setStorageItem,
-  checkStorageItemExist,
-  getStorageItem,
-  removeStorageItem,
-  checkStorageListIsEmpty,
-  getStorageListLength,
-  getStrorageList,
-};
-*/
 
 function setStorageItem(key, obj) {
   cookies.set(key, obj);
